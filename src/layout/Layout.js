@@ -1,9 +1,10 @@
+import Car from '../shared/Car';
 import './Layout.css';
 
 function Layout() {
     return (
       <div className="layout">
-        <p>Hola, mundo!</p>
+        <Car brand="Ford"/>
       </div>
     );
 }
